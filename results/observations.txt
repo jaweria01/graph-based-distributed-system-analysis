@@ -1,1 +1,23 @@
+Project: Graph-Based Analysis of Distributed System Behavior
 
+Observations:
+
+1. The system shows a centralized structure where the Frontend and Database
+   services play critical roles.
+
+2. The Database has a high number of incoming connections, making it a
+   potential bottleneck and single point of failure.
+
+3. The Payment service shows multiple failure edges, indicating instability
+   and higher risk during transactions.
+
+4. Failures propagate through dependent services, demonstrating how tightly
+   coupled services can affect overall system reliability.
+
+5. The graph-based representation helps identify critical services, failure
+   paths, and improvement areas in distributed system design.
+
+Conclusion:
+This analysis shows how graph-based modeling can be used to understand
+communication patterns, detect system weaknesses, and support reliability
+analysis in distributed systems.
