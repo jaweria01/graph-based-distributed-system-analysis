@@ -1,1 +1,21 @@
-
+timestamp,source_service,destination_service,response_time,status
+2025-01-01 10:00:01,Frontend,Auth,120,success
+2025-01-01 10:00:02,Auth,UserService,140,success
+2025-01-01 10:00:03,UserService,Database,220,success
+2025-01-01 10:00:04,Frontend,ProductService,180,success
+2025-01-01 10:00:05,ProductService,Database,260,success
+2025-01-01 10:00:06,Frontend,Payment,300,success
+2025-01-01 10:00:07,Payment,Database,480,failure
+2025-01-01 10:00:08,Payment,Notification,350,success
+2025-01-01 10:00:09,Frontend,Auth,110,success
+2025-01-01 10:00:10,Auth,UserService,160,success
+2025-01-01 10:00:11,UserService,Database,240,failure
+2025-01-01 10:00:12,Frontend,ProductService,190,success
+2025-01-01 10:00:13,ProductService,Database,300,success
+2025-01-01 10:00:14,Frontend,Payment,320,success
+2025-01-01 10:00:15,Payment,Database,500,failure
+2025-01-01 10:00:16,Frontend,Auth,115,success
+2025-01-01 10:00:17,Auth,UserService,150,success
+2025-01-01 10:00:18,UserService,Database,210,success
+2025-01-01 10:00:19,Payment,Notification,400,failure
+2025-01-01 10:00:20,Frontend,ProductService,175,success
