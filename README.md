@@ -201,7 +201,7 @@ It visually represents:
 - Communication flow  
 - Failure locations
   
-  [Distributed Graph](https://github.com/jaweria01/graph-based-distributed-system-analysis/blob/618f183e34745b3daf6e775b7a7e8928a70af346/visuals/system_graph.png)
+  ![Distributed Graph](https://github.com/jaweria01/graph-based-distributed-system-analysis/blob/618f183e34745b3daf6e775b7a7e8928a70af346/visuals/system_graph.png)
 ---
 
 ## 🧪 Technologies Used
